@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		123FAA6726BACFF00030D16B /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123FAA6626BACFF00030D16B /* RecipeTableViewController.swift */; };
+		12E67EC326C56D29004D365C /* RecipeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E67EC226C56D29004D365C /* RecipeCollectionViewController.swift */; };
+		252F776126BA6688006DC8CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252F776026BA6688006DC8CC /* AppDelegate.swift */; };
+		252F776326BA6688006DC8CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252F776226BA6688006DC8CC /* SceneDelegate.swift */; };
+		252F776526BA6688006DC8CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252F776426BA6688006DC8CC /* ViewController.swift */; };
+		252F776826BA6688006DC8CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252F776626BA6688006DC8CC /* Main.storyboard */; };
+		252F776A26BA668A006DC8CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252F776926BA668A006DC8CC /* Assets.xcassets */; };
+		252F776D26BA668A006DC8CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252F776B26BA668A006DC8CC /* LaunchScreen.storyboard */; };
+		252F777826BA668A006DC8CC /* livingAlone_homeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252F777726BA668A006DC8CC /* livingAlone_homeTests.swift */; };
+		252F778326BA668A006DC8CC /* livingAlone_homeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252F778226BA668A006DC8CC /* livingAlone_homeUITests.swift */; };
+		2593193326C55AB4006D1F99 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593193226C55AB4006D1F99 /* Home.swift */; };
+		2593193526C55ABE006D1F99 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593193426C55ABE006D1F99 /* Recipe.swift */; };
+		2593193726C55ACC006D1F99 /* Dairy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593193626C55ACC006D1F99 /* Dairy.swift */; };
+		2593193926C55ADA006D1F99 /* Myprofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593193826C55ADA006D1F99 /* Myprofile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		252F777426BA668A006DC8CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 252F775526BA6688006DC8CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 252F775C26BA6688006DC8CC;
+			remoteInfo = "livingAlone-home";
+		};
+		252F777F26BA668A006DC8CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 252F775526BA6688006DC8CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 252F775C26BA6688006DC8CC;
+			remoteInfo = "livingAlone-home";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		123FAA6626BACFF00030D16B /* RecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
+		12E67EC226C56D29004D365C /* RecipeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewController.swift; sourceTree = "<group>"; };
+		252F775D26BA6688006DC8CC /* livingAlone-home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "livingAlone-home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		252F776026BA6688006DC8CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		252F776226BA6688006DC8CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		252F776426BA6688006DC8CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		252F776726BA6688006DC8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		252F776926BA668A006DC8CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		252F776C26BA668A006DC8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		252F776E26BA668A006DC8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252F777326BA668A006DC8CC /* livingAlone-homeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "livingAlone-homeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		252F777726BA668A006DC8CC /* livingAlone_homeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = livingAlone_homeTests.swift; sourceTree = "<group>"; };
+		252F777926BA668A006DC8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252F777E26BA668A006DC8CC /* livingAlone-homeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "livingAlone-homeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		252F778226BA668A006DC8CC /* livingAlone_homeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = livingAlone_homeUITests.swift; sourceTree = "<group>"; };
+		252F778426BA668A006DC8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2593193226C55AB4006D1F99 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		2593193426C55ABE006D1F99 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		2593193626C55ACC006D1F99 /* Dairy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dairy.swift; sourceTree = "<group>"; };
+		2593193826C55ADA006D1F99 /* Myprofile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myprofile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		252F775A26BA6688006DC8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252F777026BA668A006DC8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252F777B26BA668A006DC8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		252F775426BA6688006DC8CC = {
+			isa = PBXGroup;
+			children = (
+				252F775F26BA6688006DC8CC /* livingAlone-home */,
+				252F777626BA668A006DC8CC /* livingAlone-homeTests */,
+				252F778126BA668A006DC8CC /* livingAlone-homeUITests */,
+				252F775E26BA6688006DC8CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		252F775E26BA6688006DC8CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				252F775D26BA6688006DC8CC /* livingAlone-home.app */,
+				252F777326BA668A006DC8CC /* livingAlone-homeTests.xctest */,
+				252F777E26BA668A006DC8CC /* livingAlone-homeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		252F775F26BA6688006DC8CC /* livingAlone-home */ = {
+			isa = PBXGroup;
+			children = (
+				12E67EC226C56D29004D365C /* RecipeCollectionViewController.swift */,
+				123FAA6626BACFF00030D16B /* RecipeTableViewController.swift */,
+				252F776026BA6688006DC8CC /* AppDelegate.swift */,
+				252F776226BA6688006DC8CC /* SceneDelegate.swift */,
+				2593193226C55AB4006D1F99 /* Home.swift */,
+				2593193826C55ADA006D1F99 /* Myprofile.swift */,
+				2593193426C55ABE006D1F99 /* Recipe.swift */,
+				2593193626C55ACC006D1F99 /* Dairy.swift */,
+				252F776426BA6688006DC8CC /* ViewController.swift */,
+				252F776626BA6688006DC8CC /* Main.storyboard */,
+				252F776926BA668A006DC8CC /* Assets.xcassets */,
+				252F776B26BA668A006DC8CC /* LaunchScreen.storyboard */,
+				252F776E26BA668A006DC8CC /* Info.plist */,
+			);
+			path = "livingAlone-home";
+			sourceTree = "<group>";
+		};
+		252F777626BA668A006DC8CC /* livingAlone-homeTests */ = {
+			isa = PBXGroup;
+			children = (
+				252F777726BA668A006DC8CC /* livingAlone_homeTests.swift */,
+				252F777926BA668A006DC8CC /* Info.plist */,
+			);
+			path = "livingAlone-homeTests";
+			sourceTree = "<group>";
+		};
+		252F778126BA668A006DC8CC /* livingAlone-homeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				252F778226BA668A006DC8CC /* livingAlone_homeUITests.swift */,
+				252F778426BA668A006DC8CC /* Info.plist */,
+			);
+			path = "livingAlone-homeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		252F775C26BA6688006DC8CC /* livingAlone-home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252F778726BA668A006DC8CC /* Build configuration list for PBXNativeTarget "livingAlone-home" */;
+			buildPhases = (
+				252F775926BA6688006DC8CC /* Sources */,
+				252F775A26BA6688006DC8CC /* Frameworks */,
+				252F775B26BA6688006DC8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "livingAlone-home";
+			productName = "livingAlone-home";
+			productReference = 252F775D26BA6688006DC8CC /* livingAlone-home.app */;
+			productType = "com.apple.product-type.application";
+		};
+		252F777226BA668A006DC8CC /* livingAlone-homeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252F778A26BA668A006DC8CC /* Build configuration list for PBXNativeTarget "livingAlone-homeTests" */;
+			buildPhases = (
+				252F776F26BA668A006DC8CC /* Sources */,
+				252F777026BA668A006DC8CC /* Frameworks */,
+				252F777126BA668A006DC8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				252F777526BA668A006DC8CC /* PBXTargetDependency */,
+			);
+			name = "livingAlone-homeTests";
+			productName = "livingAlone-homeTests";
+			productReference = 252F777326BA668A006DC8CC /* livingAlone-homeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		252F777D26BA668A006DC8CC /* livingAlone-homeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252F778D26BA668A006DC8CC /* Build configuration list for PBXNativeTarget "livingAlone-homeUITests" */;
+			buildPhases = (
+				252F777A26BA668A006DC8CC /* Sources */,
+				252F777B26BA668A006DC8CC /* Frameworks */,
+				252F777C26BA668A006DC8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				252F778026BA668A006DC8CC /* PBXTargetDependency */,
+			);
+			name = "livingAlone-homeUITests";
+			productName = "livingAlone-homeUITests";
+			productReference = 252F777E26BA668A006DC8CC /* livingAlone-homeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		252F775526BA6688006DC8CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					252F775C26BA6688006DC8CC = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					252F777226BA668A006DC8CC = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 252F775C26BA6688006DC8CC;
+					};
+					252F777D26BA668A006DC8CC = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 252F775C26BA6688006DC8CC;
+					};
+				};
+			};
+			buildConfigurationList = 252F775826BA6688006DC8CC /* Build configuration list for PBXProject "livingAlone-home" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 252F775426BA6688006DC8CC;
+			productRefGroup = 252F775E26BA6688006DC8CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				252F775C26BA6688006DC8CC /* livingAlone-home */,
+				252F777226BA668A006DC8CC /* livingAlone-homeTests */,
+				252F777D26BA668A006DC8CC /* livingAlone-homeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		252F775B26BA6688006DC8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252F776D26BA668A006DC8CC /* LaunchScreen.storyboard in Resources */,
+				252F776A26BA668A006DC8CC /* Assets.xcassets in Resources */,
+				252F776826BA6688006DC8CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252F777126BA668A006DC8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252F777C26BA668A006DC8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		252F775926BA6688006DC8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252F776526BA6688006DC8CC /* ViewController.swift in Sources */,
+				2593193926C55ADA006D1F99 /* Myprofile.swift in Sources */,
+				2593193726C55ACC006D1F99 /* Dairy.swift in Sources */,
+				123FAA6726BACFF00030D16B /* RecipeTableViewController.swift in Sources */,
+				2593193326C55AB4006D1F99 /* Home.swift in Sources */,
+				12E67EC326C56D29004D365C /* RecipeCollectionViewController.swift in Sources */,
+				2593193526C55ABE006D1F99 /* Recipe.swift in Sources */,
+				252F776126BA6688006DC8CC /* AppDelegate.swift in Sources */,
+				252F776326BA6688006DC8CC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252F776F26BA668A006DC8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252F777826BA668A006DC8CC /* livingAlone_homeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252F777A26BA668A006DC8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252F778326BA668A006DC8CC /* livingAlone_homeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		252F777526BA668A006DC8CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 252F775C26BA6688006DC8CC /* livingAlone-home */;
+			targetProxy = 252F777426BA668A006DC8CC /* PBXContainerItemProxy */;
+		};
+		252F778026BA668A006DC8CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 252F775C26BA6688006DC8CC /* livingAlone-home */;
+			targetProxy = 252F777F26BA668A006DC8CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		252F776626BA6688006DC8CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252F776726BA6688006DC8CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		252F776B26BA668A006DC8CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252F776C26BA668A006DC8CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		252F778526BA668A006DC8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		252F778626BA668A006DC8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		252F778826BA668A006DC8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "livingAlone-home/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "autolayoutPractice.livingAlone-home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		252F778926BA668A006DC8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "livingAlone-home/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "autolayoutPractice.livingAlone-home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		252F778B26BA668A006DC8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "livingAlone-homeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "autolayoutPractice.livingAlone-homeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/livingAlone-home.app/livingAlone-home";
+			};
+			name = Debug;
+		};
+		252F778C26BA668A006DC8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "livingAlone-homeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "autolayoutPractice.livingAlone-homeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/livingAlone-home.app/livingAlone-home";
+			};
+			name = Release;
+		};
+		252F778E26BA668A006DC8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "livingAlone-homeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "autolayoutPractice.livingAlone-homeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "livingAlone-home";
+			};
+			name = Debug;
+		};
+		252F778F26BA668A006DC8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "livingAlone-homeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "autolayoutPractice.livingAlone-homeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "livingAlone-home";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		252F775826BA6688006DC8CC /* Build configuration list for PBXProject "livingAlone-home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252F778526BA668A006DC8CC /* Debug */,
+				252F778626BA668A006DC8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252F778726BA668A006DC8CC /* Build configuration list for PBXNativeTarget "livingAlone-home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252F778826BA668A006DC8CC /* Debug */,
+				252F778926BA668A006DC8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252F778A26BA668A006DC8CC /* Build configuration list for PBXNativeTarget "livingAlone-homeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252F778B26BA668A006DC8CC /* Debug */,
+				252F778C26BA668A006DC8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252F778D26BA668A006DC8CC /* Build configuration list for PBXNativeTarget "livingAlone-homeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252F778E26BA668A006DC8CC /* Debug */,
+				252F778F26BA668A006DC8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 252F775526BA6688006DC8CC /* Project object */;
+}
